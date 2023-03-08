@@ -1,1 +1,1 @@
-# rsschool-cv
+https://idiamondcat.github.io/rsschool-cv/cv
