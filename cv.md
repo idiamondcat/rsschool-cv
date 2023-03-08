@@ -1,0 +1,77 @@
+# Alina Poletova
+### Junior Frontend Developer
+I'm a motivated, responsible, executive frontend developer who wants to improve professional skills and participate in interesting
+projects.
+
+## __Contacts:__
+
+---
+
+* __E-mail__: shock.harrison9@gmail.com
+* __LinkedIn__: [Alina Poletova](https://www.linkedin.com/in/alina-poletova/)
+* __GitHub__: [idiamondcat](https://github.com/idiamondcat)
+
+## __Education:__
+
+---
+
+* ITMO University - Master of Software and Computing (_Sep. 2017 - Jun. 2019_)
+* Russian Presidential Academy of National Economy and Public Administration - Bachelor of Journalism (_Sep. 2013 - Jul. 2017_)
+
+## __Work experience:__
+
+---
+
+* Software engineer at __Intetech__ (_Dec. 2021 - Aug. 2022_)
+    + created SVG-elements with Illustrator
+    + created adaptive custom elements for mnemonic schemes (HTML/CSS/JS)
+    + assembled and integrated HTML-schemes into the app
+* Software engineer at __Rubin__ (_Feb. 2020 - Dec. 2021_)
+    + developed UX/UI for apps (Photoshop, Illustrator, Figma)
+    + created web apps with stack HTML/CSS/JavaScript + Angular/Bootstrap/Node.js/PostrgeSQL
+
+## __Skills:__
+
+---
+
+* HTML5
+* CSS
+* JavaScript
+* Angular
+* Git
+* Adobe Photoshop
+* Adobe Illustrator
+* Figma
+
+## __Code example:__
+
+---
+
+```
+  async sortList(target) {
+    if (this.isSorting) {
+      this.personData.sort((a,b) => { 
+      if ( a.employee.surname < b.employee.surname ){ return -1; }
+      if ( a.employee.surname > b.employee.surname ){ return 1;  }
+      return 0;
+    });
+    $(target).addClass('sort-btn-up');
+    this.isSorting = false;
+    } else {
+      this.personData.sort((a,b) => {
+        if ( a.employee.surname > b.employee.surname ){ return -1; }
+        if ( a.employee.surname < b.employee.surname ){ return 1;  }
+        return 0;
+      });
+      $(target).removeClass('sort-btn-up');
+      this.isSorting = true;
+    }
+  }
+```
+
+## __Languages:__
+
+---
+
+* Russian - Native
+* English - Pre-Intermediate in progress
