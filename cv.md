@@ -8,6 +8,7 @@ projects.
 ---
 
 * __E-mail__: shock.harrison9@gmail.com
+* __Discord__: diamondcat (@idiamondcat)
 * __LinkedIn__: [Alina Poletova](https://www.linkedin.com/in/alina-poletova/)
 * __GitHub__: [idiamondcat](https://github.com/idiamondcat)
 
@@ -34,7 +35,7 @@ projects.
 
 ---
 
-* HTML5
+* HTML
 * CSS
 * JavaScript
 * Angular
@@ -48,25 +49,12 @@ projects.
 ---
 
 ```
-  async sortList(target) {
-    if (this.isSorting) {
-      this.personData.sort((a,b) => { 
-      if ( a.employee.surname < b.employee.surname ){ return -1; }
-      if ( a.employee.surname > b.employee.surname ){ return 1;  }
-      return 0;
-    });
-    $(target).addClass('sort-btn-up');
-    this.isSorting = false;
-    } else {
-      this.personData.sort((a,b) => {
-        if ( a.employee.surname > b.employee.surname ){ return -1; }
-        if ( a.employee.surname < b.employee.surname ){ return 1;  }
-        return 0;
-      });
-      $(target).removeClass('sort-btn-up');
-      this.isSorting = true;
-    }
-  }
+    // Sum Numbers
+    function sum (numbers) {
+        "use strict";
+        return numbers.reduce((acc, curr) => acc + curr, 0);
+        
+    };
 ```
 
 ## __Languages:__
