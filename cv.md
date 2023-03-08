@@ -16,8 +16,8 @@ projects.
 
 ---
 
-* ITMO University - Master of Software and Computing (_Sep. 2017 - Jun. 2019_)
-* Russian Presidential Academy of National Economy and Public Administration - Bachelor of Journalism (_Sep. 2013 - Jul. 2017_)
+* __ITMO University__ - Master of Software and Computing (_Sep. 2017 - Jun. 2019_)
+* __Russian Presidential Academy of National Economy and Public Administration__ - Bachelor of Journalism (_Sep. 2013 - Jul. 2017_)
 
 ## __Work experience:__
 
