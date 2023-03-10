@@ -61,4 +61,4 @@ projects.
 ---
 
 * Russian - Native
-* English - Pre-Intermediate in progress
+* English - Intermediate in progress
