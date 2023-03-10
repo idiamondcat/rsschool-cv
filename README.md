@@ -1,1 +1,1 @@
-https://idiamondcat.github.io/rsschool-cv/cv
+https://idiamondcat.github.io/rsschool-cv/
