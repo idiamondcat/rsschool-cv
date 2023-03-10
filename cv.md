@@ -61,4 +61,4 @@ projects.
 ---
 
 * Russian - Native
-* English - Intermediate in progress
+* English - Intermediate in progress (EF SET Quick Check - 87% (C1-C2))
