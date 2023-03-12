@@ -2,7 +2,6 @@
 
 body {
     margin: 0;
-    background-color: #F0F4FA;
     font-family: 'Roboto', Arial, sans-serif;
     overflow: auto;
 }
@@ -18,21 +17,13 @@ img {
     user-select: none;
 }
 .container {
-    width: 70vw;
     margin: 0 auto;
-    margin-top: 7vh;
-    margin-bottom: 7vh;
-    padding: 40px 50px;
     background-color: #ffffff;
-    border-radius: 30px;
-    box-shadow: 12px 14px 36px -7px rgba(54,62,83,0.55);
-    -webkit-box-shadow: 12px 14px 36px -7px rgba(54,62,83,0.55);
-    -moz-box-shadow: 12px 14px 36px -7px rgba(54,62,83,0.55);
 }
 .main-title {
     margin: 0;
     margin-bottom: 30px;
-    font-size: 41px;
+    font-weight: 600;
     color: #0f1730;
 }
 .meme-item {
@@ -48,7 +39,6 @@ img {
 }
 .meme-title {
     margin: 0;
-    font-size: 27px;
     font-weight: 600;
     color: #0f1730;
 }
@@ -70,7 +60,6 @@ input[type="radio"] {
     left: 0;
     opacity: 0;
     display: none;
-    cursor: pointer;
 }
 .meme-place {
     display: flex;
@@ -128,10 +117,10 @@ input[type="radio"] {
     }
     .container {
         width: 90vw;
+        height: 100vh;
         margin-top: 0;
         margin-bottom: 0;
-        padding: 7vh 3vw;
-        background-color: #ffffff;
+        padding: 5vh 3vw;
         border-radius: 0;
     }
     .main-title {
@@ -141,10 +130,22 @@ input[type="radio"] {
     .meme-title {
         font-size: 18px;
     }
-
 }
 
 @media screen and (min-width: 820px) and (max-width: 1919px) {
+    body {
+        background-color: #F0F4FA;
+    }
+    .container {
+        width: 70vw;
+        margin-top: 7vh;
+        margin-bottom: 7vh;
+        padding: 40px 50px;
+        border-radius: 30px;
+        box-shadow: 12px 14px 36px -7px rgba(54,62,83,0.55);
+        -webkit-box-shadow: 12px 14px 36px -7px rgba(54,62,83,0.55);
+        -moz-box-shadow: 12px 14px 36px -7px rgba(54,62,83,0.55);
+    }
     .main-title {
         font-size: 36px;
         text-align: center;
@@ -153,4 +154,32 @@ input[type="radio"] {
         font-size: 24px;
     }
 
+}
+
+@media (min-width: 1920px) {
+    body {
+        background-color: #F0F4FA;
+    }
+    .container {
+        width: 70vw;
+        margin-top: 7vh;
+        margin-bottom: 7vh;
+        padding: 40px 50px;
+        border-radius: 30px;
+        box-shadow: 12px 14px 36px -7px rgba(54,62,83,0.55);
+        -webkit-box-shadow: 12px 14px 36px -7px rgba(54,62,83,0.55);
+        -moz-box-shadow: 12px 14px 36px -7px rgba(54,62,83,0.55);
+    }
+    .meme-item:hover {
+        cursor: pointer;
+    }
+    .meme-item:has(.meme-place:hover) > input[type="radio"]:checked ~ .meme-header .icon-round {
+        opacity: 0;
+    }
+    .main-title {
+        font-size: 41px;
+    }
+    .meme-title {
+        font-size: 27px;
+    }
 }
